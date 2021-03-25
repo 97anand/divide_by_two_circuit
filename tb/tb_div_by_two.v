@@ -5,9 +5,9 @@ module tb_div_by_two();
  wire clk_out;
 
   div_by_two div_by_two_i(
-    clk_in   (clk_in  ),
-    reset_n  (reset_n ),
-    clk_out  (clk_out )
+    .clk_in   (clk_in  ),
+    .reset_n  (reset_n ),
+    .clk_out  (clk_out )
   );
 
  always
